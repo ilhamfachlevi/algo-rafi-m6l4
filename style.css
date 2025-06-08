@@ -1,0 +1,84 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+}
+
+header {
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #36bbce; /* From model */
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+nav {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 25px 100px 25px 95px;
+    justify-content: space-between;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: white; /* Changed for black background */
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    color: white; /* Changed for black background */
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 24px;
+    color: white; /* Changed for black background */
+}
+
+.info {
+    flex-wrap: wrap;
+    width: 1100px;
+    margin: 0px;
+}
+
+article {
+    background-color: white;
+    width: 400px;
+    margin: 20px 15px;
+    color: black; /* Text on white background stays black */
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: grey;
+    color: white; /* Changed for contrast on black/grey */
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px;
+}
+
+footer {
+    background-color: #36bbce; /* From model */
+    padding: 20px;
+    color: black; /* Footer text on colored background */
+}
+
+footer a {
+    margin-right: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+footer p {
+    font-size: 24px;
+}
